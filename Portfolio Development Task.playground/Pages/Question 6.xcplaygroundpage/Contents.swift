@@ -17,8 +17,27 @@
  
  */
 // Answer question 6 below
+let targetDistance = 1000
+Double(targetDistance)
+var currentDistanceRun = 500
+Double(currentDistanceRun)
 
-
+//single if statement
+if Double(currentDistanceRun) < 0.1 * Double(targetDistance) {
+    print("Great start, keep it up!")
+}
+if  0.45 * Double(targetDistance) <= Double(currentDistanceRun), Double(currentDistanceRun) < 0.5 * Double(targetDistance){
+    print("You are almost at halfway!")
+}
+if Double(currentDistanceRun) == 0.5 * Double(targetDistance) {
+    print("Halfway there!")
+}
+if Double(currentDistanceRun) > 0.9 * Double(targetDistance), Double(currentDistanceRun) < 1000 {
+    print("Nearly Done!")
+}
+if  Double(currentDistanceRun) == Double(targetDistance){
+    print("Great Job! You finished the run.")
+}
 /*:
  ## Now share your understanding
  
