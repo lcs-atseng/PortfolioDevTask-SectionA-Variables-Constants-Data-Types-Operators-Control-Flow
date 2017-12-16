@@ -17,6 +17,14 @@
  
  */
 // Answer question 2 below
+let nameOfAlbum = "Ukulele Hero"
+var copiesSold = 500
+let suggestedSellingPrice = 15
+let howMuchReceived = copiesSold * suggestedSellingPrice
+
+
+print(nameOfAlbum)
+print(howMuchReceived)
 
 /*:
  ## Now share your understanding
