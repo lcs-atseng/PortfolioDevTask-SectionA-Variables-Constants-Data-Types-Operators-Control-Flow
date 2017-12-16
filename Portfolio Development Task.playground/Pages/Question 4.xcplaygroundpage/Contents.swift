@@ -19,7 +19,23 @@
  
  */
 // Answer question 4 below
+//start with 0 money
+var moneyIHaveEarned = 0
+//1-earned 5$
+moneyIHaveEarned += 5
+//2-owe sb 2$
+moneyIHaveEarned -= 2
+//3-quadruple current earnings
+moneyIHaveEarned *= 4
+//change dollar to cents
+moneyIHaveEarned *= 100
+//4-pay 75cents per minute
+moneyIHaveEarned -= 75 * 13
+//change back to dollar
+moneyIHaveEarned /= 100
 
+
+print(moneyIHaveEarned)
 /*:
  ## Now share your understanding
  
